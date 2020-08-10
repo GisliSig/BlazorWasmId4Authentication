@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Server", "BlazorWasmId4Authentication\Server\BlazorWasmId4Authentication.Server.csproj", "{AD518F09-7358-453F-BCD5-A52629168B50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Server", "BlazorWasmId4Authentication\BlazorWasmId4Authentication\Server\BlazorWasmId4Authentication.Server.csproj", "{AD518F09-7358-453F-BCD5-A52629168B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Client", "BlazorWasmId4Authentication\Client\BlazorWasmId4Authentication.Client.csproj", "{E0670E4E-EEA0-4BE5-81EC-A3B7B67AE0E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Client", "BlazorWasmId4Authentication\BlazorWasmId4Authentication\Client\BlazorWasmId4Authentication.Client.csproj", "{E0670E4E-EEA0-4BE5-81EC-A3B7B67AE0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Shared", "BlazorWasmId4Authentication\Shared\BlazorWasmId4Authentication.Shared.csproj", "{0B2EFA80-88D4-4149-9AB7-F1A7E5B8BDC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Shared", "BlazorWasmId4Authentication\BlazorWasmId4Authentication\Shared\BlazorWasmId4Authentication.Shared.csproj", "{0B2EFA80-88D4-4149-9AB7-F1A7E5B8BDC6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "..\IdentityServer\IdentityServer.csproj", "{B21D943E-D6F9-4ADB-BB3F-6D0B14E0C732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{B21D943E-D6F9-4ADB-BB3F-6D0B14E0C732}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C3F10089-ECB2-421F-90D2-88825E4CF061}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{3ED6B88B-C87A-40DA-83AB-A9E42A919501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Service", "BlazorWasmId4Authentication.Service\BlazorWasmId4Authentication.Service.csproj", "{96C71BF1-ADEF-4EF1-84A3-8276C7E1D8D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmId4Authentication.Service", "BlazorWasmId4Authentication\BlazorWasmId4Authentication.Service\BlazorWasmId4Authentication.Service.csproj", "{96C71BF1-ADEF-4EF1-84A3-8276C7E1D8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
