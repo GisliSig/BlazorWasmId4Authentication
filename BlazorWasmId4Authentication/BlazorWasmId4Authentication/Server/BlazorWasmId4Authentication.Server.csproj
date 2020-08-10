@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>BlazorWasmId4Authentication.Server-6CFBF427-F887-4ACE-AC76-4F27952B9276</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+    <PackageReference Include="ProxyKit" Version="2.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\BlazorWasmId4Authentication.Client.csproj" />
+    <ProjectReference Include="..\Shared\BlazorWasmId4Authentication.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
